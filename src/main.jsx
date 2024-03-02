@@ -11,6 +11,7 @@ import {Provider} from 'react-redux';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Kriteria from './pages/Kriteria';
+import Mail from './pages/Mail';
 
 import './index.css'
 
@@ -25,6 +26,9 @@ const router = createBrowserRouter([
   },{
     path: "/register",
     element: <Register/>,
+  },{
+    path: "/mails",
+    element: <Mail/>,
   }
 ])
 
